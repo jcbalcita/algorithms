@@ -1,4 +1,4 @@
 # Algorithm Projects
 
-- LRU Cache
+- Dynamic Array
 - Heaps and Heapsort
