@@ -9,7 +9,7 @@ class BinaryMinHeap
   end
 
   def extract
-    raise "no element to extract" if count == 0
+    raise "cannot extract" if count == 0
 
     store[0], store[store.length - 1] = store[store.length - 1], store[0]
     popped = store.pop
